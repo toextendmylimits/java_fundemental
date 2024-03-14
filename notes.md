@@ -1,7 +1,7 @@
 1. APIs to Memorize:  
 System.arraycopy(Object src, int srcPos,
                              Object dest, int destPos, int length),  
-   java.util.Arrays.copyOfRange((short[] original, int from, int to),
+   java.util.Arrays.copyOfRange((short[] original, int from, int to),  
    java.util.Arrays.toString
 
 3. External library
