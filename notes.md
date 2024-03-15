@@ -12,3 +12,4 @@ org.apache.commons.lang3.ArrayUtils;
 
    Complement (~) operator with all bits is inverted. It changes every 0 to 1, and every 1 to 0.
 5. string method length()
+6. Don't forget to check not null. if (p != null)
