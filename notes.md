@@ -11,5 +11,5 @@ org.apache.commons.lang3.ArrayUtils;
    For the XOR (^) operator: if corresponding bits are different, it gives 1, else it gives 0.
 
    Complement (~) operator with all bits is inverted. It changes every 0 to 1, and every 1 to 0.
-5. string method length()
+5. string method length(), array property length
 6. Don't forget to check not null. if (p != null)
