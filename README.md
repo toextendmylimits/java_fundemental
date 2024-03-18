@@ -2,6 +2,6 @@
 1. StringBuilder, reverse, append
 1. ArrayList add(not append!), Arrays.asList,
 2. String length, indexOf, lastIndexOf, toCharArray, valueOf
-3. Character.getNumericValue, isLetter, isLetterOrDigit, toUpperCase
+3. Character.getNumericValue, isLetter, isLetterOrDigit, toUpperCase, isWhitespace
 4. Integer.parseInt, 
    
