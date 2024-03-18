@@ -4,5 +4,6 @@
 2. String length, indexOf, lastIndexOf, toCharArray, valueOf, String.join(" ", words),
 3. Character.getNumericValue, isLetter, isLetterOrDigit, toUpperCase, isWhitespace
 4. Integer.parseInt,
-5. Collections.reverse, Collections.sort, 
+5. Collections.reverse, Collections.sort,
+6. List to array, .stream().toArray(new String[0]), 
    
