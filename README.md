@@ -5,5 +5,6 @@
 3. Character.getNumericValue, isLetter, isLetterOrDigit, toUpperCase, isWhitespace
 4. Integer.parseInt,
 5. Collections.reverse, Collections.sort,
-6. List to array, .stream().toArray(new String[0]), 
+6. List to array, .stream().toArray(new String[0]),
+7. Queue, LinkedList, peek, poll, offer
    
