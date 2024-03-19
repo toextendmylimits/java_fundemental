@@ -18,3 +18,5 @@
    1. By implementing Runnable interface.
 1. What is difference between user Thread and daemon Thread?  
    When we create a Thread in java program, it’s known as user thread. A daemon thread runs in background and doesn’t prevent JVM from terminating. When there are no user threads running, JVM shutdown the program and quits. A child thread created from daemon thread is also a daemon thread.
+1. What is context switching?  
+   In Context switching the state of the process (or thread) is stored so that it can be restored and execution can be resumed from the same point later. Context switching enables the multiple processes to share the same CPU.
