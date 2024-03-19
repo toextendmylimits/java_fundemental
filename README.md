@@ -5,9 +5,10 @@
 3. Character.getNumericValue, isLetter, isLetterOrDigit, toUpperCase, isWhitespace, use cast int to get ascii value, use cash (char) to character from int value,
 4. Integer.parseInt,
 5. Collections.reverse, Collections.sort,
-6. List to array, .stream().toArray(new String[0]),
+6. List to array, .stream().toArray(new String[0]), result.toArray(new int[result.size()][]);
 7. Queue, LinkedList, peek, poll, offer
-8. Arrays, copyOf, copyRangeOf, clone, System.arraycopy
+8. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder, 
 9. HashMap containsKey, remove, keySet, values, entrySet,
 10. PriorityQueue, poll, offer
+11. 
    
