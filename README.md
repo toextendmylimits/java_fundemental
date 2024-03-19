@@ -20,3 +20,5 @@
    When we create a Thread in java program, it’s known as user thread. A daemon thread runs in background and doesn’t prevent JVM from terminating. When there are no user threads running, JVM shutdown the program and quits. A child thread created from daemon thread is also a daemon thread.
 1. What is context switching?  
    In Context switching the state of the process (or thread) is stored so that it can be restored and execution can be resumed from the same point later. Context switching enables the multiple processes to share the same CPU.
+1. Describe the purpose and working of sleep() method.  
+   The sleep() method in java is used to block a thread for a particular time, which means it pause the execution of a thread for a specific time. 
