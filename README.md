@@ -8,4 +8,5 @@
 6. List to array, .stream().toArray(new String[0]),
 7. Queue, LinkedList, peek, poll, offer
 8. Arrays, copyOf, copyRangeOf, clone, System.arraycopy
+9. HashMap containsKey, remove, keySet, values, entrySet,
    
