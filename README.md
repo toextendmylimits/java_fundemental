@@ -12,4 +12,7 @@
 10. HashMap containsKey, remove, keySet, values, entrySet,
 11. PriorityQueue, poll, offer
 12. 
-   
+## Multi threading
+1. There are two ways to create a thread:
+   1. By extending Thread class
+   1. By implementing Runnable interface.
