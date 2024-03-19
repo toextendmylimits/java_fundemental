@@ -7,4 +7,5 @@
 5. Collections.reverse, Collections.sort,
 6. List to array, .stream().toArray(new String[0]),
 7. Queue, LinkedList, peek, poll, offer
+8. Arrays, copyOf, copyRangeOf, clone, System.arraycopy
    
