@@ -7,8 +7,9 @@
 5. Collections.reverse, Collections.sort,
 6. List to array, .stream().toArray(new String[0]), result.toArray(new int[result.size()][]); myNewStream.toArray(String[]::new);
 7. Queue, LinkedList, peek, poll, offer
-8. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder, 
-9. HashMap containsKey, remove, keySet, values, entrySet,
-10. PriorityQueue, poll, offer
-11. 
+8. Deque addFirst as push of Stack, removeFirst as pop of Stack, peek as top
+9. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder, 
+10. HashMap containsKey, remove, keySet, values, entrySet,
+11. PriorityQueue, poll, offer
+12. 
    
