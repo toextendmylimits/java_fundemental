@@ -16,3 +16,5 @@
 1. There are two ways to create a thread:
    1. By extending Thread class
    1. By implementing Runnable interface.
+1. What is difference between user Thread and daemon Thread?  
+   When we create a Thread in java program, it’s known as user thread. A daemon thread runs in background and doesn’t prevent JVM from terminating. When there are no user threads running, JVM shutdown the program and quits. A child thread created from daemon thread is also a daemon thread.
