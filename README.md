@@ -9,4 +9,5 @@
 7. Queue, LinkedList, peek, poll, offer
 8. Arrays, copyOf, copyRangeOf, clone, System.arraycopy
 9. HashMap containsKey, remove, keySet, values, entrySet,
+10. PriorityQueue, poll, offer
    
