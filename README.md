@@ -5,13 +5,14 @@
 3. Character.getNumericValue, isLetter, isLetterOrDigit, toUpperCase, isWhitespace, use cast int to get ascii value, use cash (char) to character from int value,
 4. Integer.parseInt,
 5. Collections.reverse, Collections.sort,
-6. List to array, .stream().toArray(new String[0]), result.toArray(new int[result.size()][]); myNewStream.toArray(String[]::new);
-7. Queue, LinkedList, peek, poll, offer
-8. Deque addFirst as push of Stack, removeFirst as pop of Stack, peek as top
-9. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder, 
-10. HashMap containsKey, remove, keySet, values, entrySet,
-11. PriorityQueue, poll, offer
-12. 
+6. List to array, .stream().toArray(new String[0]), result.toArray(new int[result.size()][]); myNewStream.toArray(String[]::new);  
+   List of integer to array: result.stream().mapToInt(Integer::intValue).toArray();
+8. Queue, LinkedList, peek, poll, offer
+9. Deque addFirst as push of Stack, removeFirst as pop of Stack, peek as top
+10. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder, 
+11. HashMap containsKey, remove, keySet, values, entrySet,
+12. PriorityQueue, poll, offer
+13. 
 ## Multi threading
 1. There are two ways to create a thread:
    1. By extending Thread class
