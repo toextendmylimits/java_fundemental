@@ -12,7 +12,9 @@
 10. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder, 
 11. HashMap containsKey, remove, keySet, values, entrySet,
 12. PriorityQueue, poll, offer
-13. 
+13. Collections
+   1. Convert String[] array to list, use Arrays.asList()
+   2. Convert List<String> to array, use list.toArray(new String[size]), or list.toStream().toArray(String[]::new) in java 8, or list.toArray(String[]::new) in java 11
 ## Multi threading
 1. There are two ways to create a thread:
    1. By extending Thread class
