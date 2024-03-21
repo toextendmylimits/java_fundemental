@@ -9,10 +9,11 @@
    List of integer to array: result.stream().mapToInt(Integer::intValue).toArray();
 8. Queue, LinkedList, peek, poll, offer
 9. Deque addFirst as push of Stack, removeFirst as pop of Stack, peek as top
-10. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder, 
-11. HashMap containsKey, remove, keySet, values, entrySet,
-12. PriorityQueue, poll, offer
-13. Collections
+10. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder,
+    1. Arrays.asList() Returns a fixed-size list backed by the specified array.
+12. HashMap containsKey, remove, keySet, values, entrySet,
+13. PriorityQueue, poll, offer
+14. Collections
    1. Convert String[] array to list, use Arrays.asList()
    2. Convert List<String> to array, use list.toArray(new String[size]), or list.toStream().toArray(String[]::new) in java 8, or list.toArray(String[]::new) in java 11
 ## Multi threading
