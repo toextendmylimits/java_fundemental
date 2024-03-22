@@ -23,7 +23,7 @@
                             .map(String::valueOf)  
                             .collect(Collectors.joining());  
 1. ArrayDeque doens't allow Null while LinkedList allows Null
-
+1. Hashmap putIfAbsent
 ## Multi threading
 1. There are two ways to create a thread:
    1. By extending Thread class
