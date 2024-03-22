@@ -12,8 +12,9 @@
 10. Arrays, copyOf, copyRangeOf, clone, System.arraycopy, Arrays.sort, Comparator.reverseOrder,
     1. Arrays.asList() Returns a fixed-size list backed by the specified array.
 12. HashMap containsKey, remove, keySet, values, entrySet,
-13. PriorityQueue, poll, offer
-14. Collections
+13. PriorityQueue, poll, offer,
+    1. To initialize an array list with priorty queue: new ArrayList<Point>(maxHeap);
+15. Collections
    1. Convert String[] array to list, use Arrays.asList()
    2. Convert List<String> to array, use list.toArray(new String[size]), or list.toStream().toArray(String[]::new) in java 8, or list.toArray(String[]::new) in java 11
    3. Covert List<int[]> to array int[][], list.toArray(new int[size][]), list.toArray(new int[][]{}), or list.stream().toArray(int[][]::new) in java 8, or list.toArray(int[][]::new) in java 11
