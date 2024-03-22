@@ -4,7 +4,7 @@
 2. String length, indexOf, lastIndexOf, toCharArray, valueOf, String.join(" ", words),
 3. Character.getNumericValue, isLetter, isLetterOrDigit, toUpperCase, isWhitespace, use cast int to get ascii value, use cash (char) to character from int value,
 4. Integer.parseInt,
-5. Collections.reverse, Collections.sort,
+5. Collections.reverse, Collections.sort, Collections.max
 6. List to array, .stream().toArray(new String[0]), result.toArray(new int[result.size()][]); myNewStream.toArray(String[]::new);  
    List of integer to array: result.stream().mapToInt(Integer::intValue).toArray();
 8. Queue, LinkedList, peek, poll, offer
