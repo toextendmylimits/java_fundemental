@@ -22,6 +22,7 @@
    4. Convert a list of Characters to a string using str.stream()  
                             .map(String::valueOf)  
                             .collect(Collectors.joining());  
+1. ArrayDeque doens't allow Null while LinkedList allows Null
 
 ## Multi threading
 1. There are two ways to create a thread:
