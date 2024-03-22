@@ -16,7 +16,7 @@
 14. Collections
    1. Convert String[] array to list, use Arrays.asList()
    2. Convert List<String> to array, use list.toArray(new String[size]), or list.toStream().toArray(String[]::new) in java 8, or list.toArray(String[]::new) in java 11
-   3. Covert List<int[]> to array int[][], list.toArray(new int[size][]), or list.stream().toArray(int[][]::new) in java 8, or list.toArray(int[][]::new) in java 11
+   3. Covert List<int[]> to array int[][], list.toArray(new int[size][]), list.toArray(new int[][]{}), or list.stream().toArray(int[][]::new) in java 8, or list.toArray(int[][]::new) in java 11
 
 ## Multi threading
 1. There are two ways to create a thread:
