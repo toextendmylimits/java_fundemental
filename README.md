@@ -14,10 +14,14 @@
 12. HashMap containsKey, remove, keySet, values, entrySet,
 13. PriorityQueue, poll, offer,
     1. To initialize an array list with priorty queue: new ArrayList<Point>(maxHeap);
+    2. To add a list of elements: addAll
 15. Collections
    1. Convert String[] array to list, use Arrays.asList()
    2. Convert List<String> to array, use list.toArray(new String[size]), or list.toStream().toArray(String[]::new) in java 8, or list.toArray(String[]::new) in java 11
    3. Covert List<int[]> to array int[][], list.toArray(new int[size][]), list.toArray(new int[][]{}), or list.stream().toArray(int[][]::new) in java 8, or list.toArray(int[][]::new) in java 11
+   4. Convert a list of Characters to a string using str.stream()  
+                            .map(String::valueOf)  
+                            .collect(Collectors.joining());  
 
 ## Multi threading
 1. There are two ways to create a thread:
