@@ -36,6 +36,7 @@
 1. A functional interface is an interface that contains only one abstract method.
 2. What is the difference between Comparable interface and Comparator interface?  
    Both interfaces are used for comparing objects of the same type. The Comparable interface is used to define a total and natural ordering on the objects of a type. The Comparator is a functional interface that can be used to specify an ordering relation between the elements of a type other than their natural order.
+1. Lambda expressions can be used to replace writing anonymous classes, when the class implements a functional interface.    
 ## Multi threading
 1. There are two ways to create a thread:
    1. By extending Thread class
