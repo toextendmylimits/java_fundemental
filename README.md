@@ -31,7 +31,9 @@
        for (Iterator<String> it = names.iterator(); it.hasNext();) {
         String name = it.next();
         System.out.println(name);
-    }   
+    }
+
+1. A functional interface is an interface that contains only one abstract method.
 ## Multi threading
 1. There are two ways to create a thread:
    1. By extending Thread class
