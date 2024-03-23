@@ -27,7 +27,11 @@
    1. convert Collections of List<String> of hash map values to list, new ArrayList<>(values())
 3. String repleat(java 11), String.join("", Collections.nCopies(n, s))(java 8),
    1. new String(charArray)
-   
+1. Iterator  
+       for (Iterator<String> it = names.iterator(); it.hasNext();) {
+        String name = it.next();
+        System.out.println(name);
+    }   
 ## Multi threading
 1. There are two ways to create a thread:
    1. By extending Thread class
